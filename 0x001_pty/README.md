@@ -1,0 +1,1 @@
+Simple CLI calculator that adds, subtracts, divide

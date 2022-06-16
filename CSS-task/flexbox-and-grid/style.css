@@ -1,0 +1,66 @@
+* {
+    /*margin: 0;
+    /*padding: 0;*/
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+main {
+    width: 375px 1440px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200vh;
+    flex-direction: row;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: BigShoulderDisplay-Bold;
+    src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: LexandDeca-regular;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+}
+
+button {
+    color: hsl(0, 0%, 95%);
+}
+
+.boxOne {
+    background-color: hsl(31, 77%, 52%);
+    padding: 4em;
+}
+
+.buttonOne {
+    color: hsl(31, 77%, 52%);
+}
+
+.boxTwo {
+    background-color: hsl(184, 100%, 22%);
+    padding: 4em;
+}
+
+.buttonTwo {
+    color: hsl(184, 100%, 22%);
+}
+
+.boxThree {
+    background-color: hsl(179, 100%, 13%);
+    padding: 4em;
+}
+
+.buttonThree {
+    color: hsl(179, 100%, 13%);
+}

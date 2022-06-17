@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(235, 228, 219);
+    display: flex;
+    place-items: center;
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+    'one two three' 
+    'one two three'
+    ;
+    width: 375px 1440px;
+    margin: auto;
+}
+main div{
+    padding: 4em;
+    text-align: center;
+    
+}
+
+.boxOne {
+    background-color: hsl(31, 77%, 52%);
+    grid-area: one;
+    border-left: 10px;
+}
+
+.buttonOne {
+    color: hsl(31, 77%, 52%);
+    
+}
+
+.boxTwo {
+    background-color: hsl(184, 100%, 22%);
+    grid-area: two;
+}
+
+.buttonTwo {
+    color: hsl(184, 100%, 22%);
+}
+
+.boxThree {
+    background-color: hsl(179, 100%, 13%);
+    grid-area: three;
+    border-right: 10px;
+}
+
+.buttonThree {
+    color: hsl(179, 100%, 13%);
+}
